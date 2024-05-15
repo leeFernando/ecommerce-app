@@ -1,6 +1,8 @@
 import { Metadata } from "next"
 import "styles/globals.css"
 
+// Commented for deployment
+
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://localhost:8000"
 
 export const metadata: Metadata = {
